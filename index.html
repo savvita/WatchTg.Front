@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watches</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js" integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</head>
+<body class="bg-dark">
+    
+    <div class="bg-dark p-0">
+        <div id="loginForm" class="position-absolute top-50 start-50 translate-middle bg-dark border border-1 border-light rounded-1 w-50  text-white p-5" style="z-index: 2000;">
+            <h1 class="text-white mb-4">Sign In</h1>
+            <form>
+                <div class="row">
+                    <div class="row mb-3">
+                        <label for="signin_login" class="col-lg-3 col-md-12 col-form-label">Login</label>
+                        <div class="col-lg-9 col-md-12">
+                            <input id="signin_login" type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="signin_password" class="col-lg-3 col-md-12 col-form-label">Password</label>
+                        <div class="col-lg-9 col-md-12">
+                            <input id="signin_password" type="password" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <p id="signInErrorTxt" class="text-white">&nbsp;</p>
+                <div class="row flex justify-content-center">
+                    <button id="signInBtn" class="btn btn-outline-light m-3 mb-0" style="width: 10rem;">Login</button>
+                    <button id="cancelSignInBtn" class="btn btn-outline-light m-3 mb-0" style="width: 10rem;">Cancel</button>
+                </div>
+            </form>
+
+            <a class="text-white d-block mt-3" href="registration.html">No account?</a>
+        </div>
+    </div>
+</body>
+</html>

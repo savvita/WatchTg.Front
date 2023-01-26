@@ -1,0 +1,12 @@
+img{
+    height: 300px;
+    width: auto;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.icon{
+    width: 30px; 
+    height: auto;
+    cursor: pointer;
+}
